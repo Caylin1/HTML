@@ -1,0 +1,22 @@
+
+*{padding: 0;margin: 0;}
+
+header{
+    height: 60px;
+}
+
+.headerTXT{
+    text-align: right;
+    font-size: 14px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666666;
+    line-height: 58px;
+
+}
+.headerTXT>*{vertical-align: middle}
+.icon-dianhua{
+    font-size: 20px;
+    margin: 10px;
+}
+.mr18{margin-right: 18px}
