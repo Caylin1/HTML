@@ -4,12 +4,14 @@
 header{
     height: 60px;
 }
+.safe{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .headerTXT{
     text-align: right;
     font-size: 14px;
-    width: 1200px;
-    margin: 0 auto;
     color: #666666;
     line-height: 58px;
 
@@ -17,6 +19,56 @@ header{
 .headerTXT>*{vertical-align: middle}
 .icon-dianhua{
     font-size: 20px;
-    margin: 10px;
+   margin-right: 10px;
 }
 .mr18{margin-right: 18px}
+/*楼层一开始*/
+#floor-1{
+    height: 940px;
+    background-image: url("../image/beijin.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size:cover;
+    text-align: center;
+}
+#fimg1{
+    padding-top: 140px;
+}
+.ffotl{
+    font-size: 28px;
+    color: #43698f;
+    padding: 26px 0px 90px 0px;
+}
+.fbtnG{
+    font-size: 0;
+}
+.fbtnG>button{
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 22px;
+    color:#24a9f1;
+    outline:none;
+}
+.fbtnG i{
+    font-size: 32px;
+    vertical-align: -2px;
+}
+.fbtnG>button:first-child{
+    margin-right: 22px;
+}
+/*鼠标点击下去效果*/
+.fbtnG>button:active{
+    background-color: #24a9f1;}
+/*鼠标经过效果*/
+.fbtnG>button:hover{
+    background-color: snow;
+}
+.ffotl2{
+    padding: 52px 0 14px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
